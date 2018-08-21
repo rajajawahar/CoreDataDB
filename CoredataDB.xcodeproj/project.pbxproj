@@ -15,6 +15,9 @@
 		A8C9E53D1EF8128D0046CA08 /* CoredataDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C9E53C1EF8128D0046CA08 /* CoredataDBTests.swift */; };
 		A8C9E5481EF8128E0046CA08 /* CoredataDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C9E5471EF8128E0046CA08 /* CoredataDBUITests.swift */; };
 		ACB65762212C283400B6F238 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB65761212C283400B6F238 /* CoreData.framework */; };
+		ACB65764212C2A5900B6F238 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB65763212C2A5900B6F238 /* CategoryTableViewController.swift */; };
+		ACB65766212C2B0D00B6F238 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB65765212C2B0D00B6F238 /* ItemsTableViewController.swift */; };
+		ACB65769212C2B3500B6F238 /* datamodel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACB65767212C2B3500B6F238 /* datamodel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A8C9E5471EF8128E0046CA08 /* CoredataDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataDBUITests.swift; sourceTree = "<group>"; };
 		A8C9E5491EF8128E0046CA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB65761212C283400B6F238 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ACB65763212C2A5900B6F238 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		ACB65765212C2B0D00B6F238 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		ACB65768212C2B3500B6F238 /* datamodel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = datamodel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 				A8C9E52E1EF8128C0046CA08 /* Assets.xcassets */,
 				A8C9E5301EF8128C0046CA08 /* LaunchScreen.storyboard */,
 				A8C9E5331EF8128C0046CA08 /* Info.plist */,
+				ACB65763212C2A5900B6F238 /* CategoryTableViewController.swift */,
+				ACB65765212C2B0D00B6F238 /* ItemsTableViewController.swift */,
+				ACB65767212C2B3500B6F238 /* datamodel.xcdatamodeld */,
 			);
 			path = CoredataDB;
 			sourceTree = "<group>";
@@ -276,6 +285,9 @@
 			files = (
 				A8C9E52A1EF8128B0046CA08 /* ViewController.swift in Sources */,
 				A8C9E5281EF8128B0046CA08 /* AppDelegate.swift in Sources */,
+				ACB65766212C2B0D00B6F238 /* ItemsTableViewController.swift in Sources */,
+				ACB65769212C2B3500B6F238 /* datamodel.xcdatamodeld in Sources */,
+				ACB65764212C2A5900B6F238 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +557,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACB65767212C2B3500B6F238 /* datamodel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACB65768212C2B3500B6F238 /* datamodel.xcdatamodel */,
+			);
+			currentVersion = ACB65768212C2B3500B6F238 /* datamodel.xcdatamodel */;
+			path = datamodel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A8C9E51C1EF8128B0046CA08 /* Project object */;
 }
