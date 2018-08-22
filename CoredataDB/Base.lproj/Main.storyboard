@@ -35,6 +35,9 @@
                     <navigationItem key="navigationItem" title="Category" id="Yzu-BW-BM8">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="5vw-9k-HV6">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="createCategory:" destination="ipv-UW-z0d" id="2JK-wf-3UF"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
